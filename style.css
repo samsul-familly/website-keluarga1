@@ -122,3 +122,24 @@ body{
 }
 
 }
+.profil-table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+.profil-table td{
+    padding:18px 0;
+    font-size:24px;
+    vertical-align:top;
+}
+
+.profil-table td:first-child{
+    width:220px;
+    font-weight:bold;
+}
+
+.profil-table td:nth-child(2){
+    width:30px;
+    text-align:center;
+}
