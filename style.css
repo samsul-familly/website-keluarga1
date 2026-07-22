@@ -124,14 +124,28 @@ body{
     padding:10px 0;
 }
 
-.profil-table td:first-child{
-    width:120px;
+.profil-table td{
+    display:block;
+    width:100%;
+    padding:5px 0;
+}
+
+.profil-table tr{
+    margin-bottom:20px;
+    display:block;
 }
 
 .profil-table td:nth-child(2){
-    width:15px;
+    display:none;
 }
 
+.profil-table td:first-child{
+    font-weight:bold;
+}
+
+.profil-table td:last-child{
+    margin-left:0;
+}
 .btn{
     width:100%;
     text-align:center;
