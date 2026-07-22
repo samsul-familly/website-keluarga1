@@ -102,23 +102,39 @@ body{
 }
 
 .image img{
-    min-height:350px;
+    height:280px;
+    min-height:280px;
+    object-fit:cover;
 }
 
 .info{
-    padding:30px;
+    padding:20px;
 }
 
 .info h1{
     font-size:36px;
 }
 
-.info p{
-    font-size:24px;
+.profil-table{
+    width:100%;
 }
 
-.info b{
-    width:150px;
+.profil-table td{
+    font-size:18px;
+    padding:10px 0;
+}
+
+.profil-table td:first-child{
+    width:120px;
+}
+
+.profil-table td:nth-child(2){
+    width:15px;
+}
+
+.btn{
+    width:100%;
+    text-align:center;
 }
 
 }
